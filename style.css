@@ -1,0 +1,12 @@
+:root{font-family:Arial,sans-serif;color:#202033;background:#f3f4fa}*{box-sizing:border-box}
+body{min-height:100vh;margin:0;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at top left,#e7e5ff,transparent 40%),#f3f4fa}
+.calculator{width:min(100%,360px);padding:28px;border-radius:24px;background:white;box-shadow:0 24px 70px #28265a20}
+.eyebrow{margin:0 0 8px;color:#6858dc;font-size:10px;font-weight:bold;letter-spacing:2px}h1{margin:0;font-size:27px}
+.subtitle{margin:6px 0 24px;color:#77788b;font-size:13px}label{display:block;margin-bottom:7px;color:#77788b;font-size:11px}
+input{width:100%;padding:17px 14px;border:1px solid #e8e8f0;border-radius:12px;background:#f8f8fc;color:#24243a;text-align:right;font-size:30px;font-weight:bold}
+.keys{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:17px}
+button{min-height:57px;border:0;border-radius:12px;background:#f1f1f7;color:#29293b;font-size:18px;font-weight:bold;cursor:pointer}
+button:hover{filter:brightness(.96)}.utility,.operator{background:#e9e7ff;color:#5d4bd0}.equals{grid-row:span 2;background:#6858dc;color:white}.zero{grid-column:span 2}
+#hint{min-height:18px;margin:17px 0 0;color:#85869a;text-align:center;font-size:11px}
+footer{position:fixed;bottom:14px;color:#89899a;font-size:10px;letter-spacing:2px}
+@media(max-width:420px){.calculator{padding:22px}button{min-height:53px}}

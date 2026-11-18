@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мини-калькулятор</title><link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<main class="calculator">
+<p class="eyebrow">УЧЕБНЫЙ ПРОЕКТ</p><h1>Мини-калькулятор</h1>
+<p class="subtitle">Простые вычисления прямо в браузере</p>
+<label for="display">Результат</label><input id="display" value="0" readonly aria-live="polite">
+<div class="keys">
+<button class="utility" data-action="clear">C</button><button class="utility" data-action="delete">⌫</button><button class="operator" data-value="/">÷</button><button class="operator" data-value="*">×</button>
+<button data-value="7">7</button><button data-value="8">8</button><button data-value="9">9</button><button class="operator" data-value="-">−</button>
+<button data-value="4">4</button><button data-value="5">5</button><button data-value="6">6</button><button class="operator" data-value="+">+</button>
+<button data-value="1">1</button><button data-value="2">2</button><button data-value="3">3</button><button class="equals" data-action="calculate">=</button>
+<button class="zero" data-value="0">0</button><button data-value=".">.</button>
+</div><p id="hint">Выбери числа и операцию</p>
+</main><footer>HTML · CSS · JavaScript</footer>
+</body></html>
